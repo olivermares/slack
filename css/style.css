@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #400d40;
+}
+.header-icono, .header-burger {
+  height: 50px;
+}
+
+/*
+&-title {
+  //accede a la subclase
+}
+
+& nav {
+  //accede a la etiqueta
+}
+
+      //accede a la class independiente (nuevo bloque) dentro de otra class. Puede ir fuera, por si se repite. Y crear un variable (mixer) para reatulizar
+  /*display: flex;
+  text-decoration: none;
+  SUSTITUIDO POR MIXIM*/ /*
+@include cajasFlexibles();
+*/
+.main-title {
+  background-color: #400d40;
+  text-align: center;
+}
+.main-title-h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+}
+.main-title #yellow {
+  color: #ecb22e;
+}
+.main-title-button {
+  margin: 50px;
+  height: 50px;
+  width: 250px;
+}
+.main-title-hero {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+.main-links {
+  background-color: #f8e5d3;
+  display: block;
+  flex-wrap: wrap;
+}
+.main-links-icono {
+  width: 25%;
+  margin: 10px;
+}
+
+.footer {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

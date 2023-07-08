@@ -1,16 +1,25 @@
-.header { 
-    &-title {
-      //accede a la subclase
-    }
-  
-    & nav {
-      //accede a la etiqueta
-    }
-
-          //accede a la class independiente (nuevo bloque) dentro de otra class. Puede ir fuera, por si se repite. Y crear un variable (mixer) para reatulizar
-      /*display: flex;
-      text-decoration: none;
-      SUSTITUIDO POR MIXIM*/
-      @include cajasFlexibles();
-
+.header{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-web;
+  &-icono,&-burger{
+    height: 50px;  
+  }
 }
+
+/*
+&-title {
+  //accede a la subclase
+}
+
+& nav {
+  //accede a la etiqueta
+}
+
+      //accede a la class independiente (nuevo bloque) dentro de otra class. Puede ir fuera, por si se repite. Y crear un variable (mixer) para reatulizar
+  /*display: flex;
+  text-decoration: none;
+  SUSTITUIDO POR MIXIM*//*
+  @include cajasFlexibles();
+  */
