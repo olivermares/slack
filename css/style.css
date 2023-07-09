@@ -4,7 +4,9 @@
 }
 
 .header {
-  height: 100%;
+  height: 80px;
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   background-color: #400d40;
@@ -13,6 +15,9 @@
   height: 50px;
 }
 
+.main {
+  padding-top: 75px;
+}
 .main-title {
   background-color: #400d40;
   text-align: center;
@@ -24,20 +29,36 @@
 .main-title #yellow {
   color: #ecb22e;
 }
-.main-title-button {
-  margin: 50px;
+.main-title-p {
+  color: #ffffff;
+  text-align: center;
+  margin: 30px;
+}
+.main-title-button1 {
+  margin: 5px;
   height: 50px;
   width: 250px;
+  background-color: #ffffff;
+}
+.main-title-button2 {
+  margin: 5px;
+  height: 50px;
+  width: 250px;
+  background-color: #40a5e9;
 }
 .main-title-hero {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 30px;
 }
 .main-links {
   background-color: #F5EDE5;
   display: block;
   flex-wrap: wrap;
+}
+.main-links-h2 {
+  text-align: center;
 }
 .main-links-icono {
   width: 25%;
@@ -52,10 +73,13 @@
   width: 100%;
 }
 .main-video {
-  display: inline-block;
+  display: block;
+  background-color: #ffffff;
 }
 .main-video-source {
-  width: 100%;
+  width: 90%;
+  height: 200px;
+  border-radius: 0px 150px 150px 0px;
 }
 
 .footer {

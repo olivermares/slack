@@ -2,3 +2,9 @@
 
 //@mixin "nombre" (variable) Puede tener o no
 
+@mixin button($color){
+    margin: 5px;
+    height: 50px;
+    width: 250px;
+    background-color: $color;
+}

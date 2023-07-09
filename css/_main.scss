@@ -1,7 +1,8 @@
 .main {
+  padding-top: 75px;
   &-title {
     background-color: $color-web;
-    text-align: center;
+    text-align: center;  
     &-h1 {
       font-family: $font-h1;
       color: $color-white;
@@ -9,21 +10,33 @@
     #yellow {
       color: $color-yellow;
     }
-    &-button {
-      margin: 50px;
-      height: 50px;
-      width: 250px;
+    &-p{
+      color: $color-white;
+      text-align: center;
+      margin: 30px;
     }
+    &-button1{
+      @include button($color-white);
+    }
+    &-button2{
+      @include button($color-blue);
+    }
+    
     &-hero {
       display: flex;
       justify-content: center;
       width: 100%;
+      margin-top: 30px;
     }
   }
   &-links {
     background-color: $color-bone;
     display: block;
     flex-wrap: wrap;
+    &-h2{
+      text-align: center;
+      
+    }
     &-icono {
       width: 25%;
       margin: 10px;
@@ -38,9 +51,12 @@
     }
   }
   &-video {
-    display:inline-block;
+    display: block;
+    background-color: $color-white;
     &-source{
-      width: 100%;
+      width: 90%;
+      height: 200px;
+      border-radius: 0px 150px 150px 0px;
     }
   }
 }
