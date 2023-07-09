@@ -29,4 +29,19 @@
       margin: 10px;
     }
   }
+  &-info{
+    .container{
+      //display: block;
+      //flex-wrap: wrap;
+      //padding: 4vw;
+      background-color: red;
+      #1{
+        background-color: red;
+      }
+      &-target{
+        width: 100%;
+        //background-color: red;
+      }
+    }
+  }
 }
